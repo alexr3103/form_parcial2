@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    font-family: 'Roboto','Arial','Helvetica',sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    border: solid #c2c2c2 4px;
+    border-radius: 10px;
+    padding: 6px;
+    margin-top: 5%;
+} 
+
+#mailFeedback{
+    border-color: none;
+
+}
+
+.is-valid{
+    border: solid 3px #34a89b;
+}
+
+.is-invalid{
+    border: solid 3px #ff0000;
+}
+
+.text-success{
+    color: #34a89b;
+    font-weight: bold;
+}
+
+.text-danger{
+    color: #ff0000;
+    font-weight: bold;
+}
+
+input{
+    width: 100%;
+}
